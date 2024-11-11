@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    font-family: "Rubik", sans-serif;
+}
+
+.h1-login{
+    font-size: 290%;
+}
+
+main{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border: none;
+    box-shadow: 10px 10px 10px 1px #00093A;
+    color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #00093A;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 22vh;
+    width: 25vw;
+}
+
+.input1{
+    border: none;
+    border-radius: 10px;
+    height: 4vh;
+    padding: 3px;
+    color: #4d4b4b;
+}
+
+.check{
+    display: flex;
+    width: 11vw;
+    justify-content: space-around;
+    height: 6vh;
+    align-items: center;
+}
+.div-esq-sen{
+    display: flex;
+    justify-content: space-around;
+    width: 27vw;
+    height: 5vh;
+    align-items: center;
+    margin-bottom: 2%;
+}
+a{
+    color: white;
+}
+
+.entrar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width: 20vw;
+    height: 6vh;
+    box-shadow: 3px 4px 10px 2px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.entrar:hover{
+    background-color: #4d4b4b;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.div-login{
+    position: fixed;
+    bottom: 25%;
+    left: 30%;
+}
+
+.login{
+    font-size: 110%;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #192449;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    align-items: center;
+}
+
+.pesq{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20vw;
+    height: 5vh;
+    font-size: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 90vw;
+}
+
+.selecionado{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #2D50AA;
+    background-color: #2D50AA;
+    box-shadow: 1px 1px 15px #1a1c24;
+    text-shadow: 4px 3px 5px black;
+    border-radius: 20px;
+    width: 150%;
+    height: 150%;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+}
+
+.div-1{
+    font-size: 120%;
+}
+
+ul{
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+h2{
+    text-shadow: 8px 8px 10px black;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 150%;
+    height: 150%;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+}
+
+
+
+.div-nov2{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nov{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    box-shadow: 5px 9px 20px 23px rgb(26, 25, 65);
+    width: 55vw;
+    height: 32vh;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.nov2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    box-shadow: 5px 9px 20px 23px rgb(26, 25, 65);
+    width: 55vw;
+    height: 32vh;
+    border-radius: 20px;
+    padding-right: 5px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+img{
+    border-radius: 20px;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    text-align: justify;
+    padding: 15px;
+}
+
+.a1{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

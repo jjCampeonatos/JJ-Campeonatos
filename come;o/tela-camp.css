@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #192449;
+    font-family: "Rubik", sans-serif;
+}
+
+.div-nav{
+    display: flex;
+    align-items: start;
+    height: 10vh;
+    align-items: center;
+    width: 23vw;
+    justify-content: center;
+    
+}
+
+.a-volta{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.img-prici{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 5%;
+
+}
+
+.text-princi{
+    color: white;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 6%;
+    justify-content: space-evenly;
+    height: 23vh;
+}
+
+.div-valor{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 20vw;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    height: 10vh;  
+}
+
+.a-valor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px 3px black;
+    width: 14vw;
+    height: 7vh;
+}
+
+.a-valor:hover{
+    width: 17vw;
+    height: 10vh;
+    transition: 0.5s;
+}
+
+.div-rs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 10vh;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.main2{
+    color: white;
+    margin-top: 5%;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 3px black;
+    width: 45vw;
+    height: 20vh;
+}
+
+.h2{
+    width: 30vw;
+}
+
+img{
+    border-radius: 20px;
+}
