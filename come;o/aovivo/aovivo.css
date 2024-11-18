@@ -18,7 +18,7 @@ body{
 .div-nav{
     display: flex;
     justify-content: space-between;
-    width: 90vw;
+    width: 900vw;
     align-items: center;
 }
 
