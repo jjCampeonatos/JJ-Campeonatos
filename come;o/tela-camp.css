@@ -92,6 +92,9 @@ body{
 .main2{
     color: white;
     margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .a{
@@ -101,16 +104,23 @@ body{
     margin-top: 4%;
     margin-bottom: 4%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
     border: none;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 3px black;
-    width: 45vw;
-    height: 20vh;
+    width: 40vw;
+    height: 30vh;
+    transition: 0.4s;
+}
+
+.a:hover{
+    width: 42vw;
+    height: 32vh;
 }
 
 .h2{
-    width: 30vw;
+    width: 25vw;
 }
 
 img{
