@@ -47,9 +47,9 @@ nav{
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 60vw;
+    width: 55vw;
     height: 10vh;
 }
 
