@@ -15,6 +15,14 @@ body{
     font-family: "Rubik", sans-serif;
 }
 
+.img{
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+    margin-left: -20%;
+
+}
+
 .div-nav{
     display: flex;
     justify-content: space-between;
@@ -123,7 +131,7 @@ li a:hover{
     border-radius: 20px;
     padding: 5px;
     font-size: 100%;
-    box-shadow: 5px 5px 10px 4px  rgba(36, 36, 36, 0.881);
+    box-shadow: 5px 5px 10px 4px rgba(36, 36, 36, 0.881);
 }
 
 .div-nome{
@@ -135,7 +143,7 @@ li a:hover{
 
 .a-camp{
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 0%;
     text-decoration: none;
     color: white;
     display: flex;
@@ -146,6 +154,11 @@ li a:hover{
     width: 38vw;
     border-radius: 20px;
     box-shadow: 4px 4px 20px 5px black;
+}
+
+.img-live2{
+    margin-top: -12%;
+    margin-left: 59%;
 }
 
 .filho-a{
