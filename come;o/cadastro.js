@@ -9,7 +9,3 @@ app.get('/', (req, res) => {
 app.listen3000,() => {
     console.log('servidor rodando')
 }
-
-function require() {
-    
-}
